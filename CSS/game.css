@@ -3,6 +3,7 @@
     height: 92vw;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 10vh;
 }
 table{
     margin:0 auto; 
@@ -46,13 +47,14 @@ body{
 
 @media screen and (min-width: 600px) {
     .center-container {
-        width: 47vw;
-        height: 47vw;
+        width: 60vmin;
+        height: 60vmin;
+        padding-bottom: 0;
     }
 
     .squarie {
-        width: 15vw;
-        height: 15vw;
+        width: 20vmin ;
+        height: 20vmin;
     }
     .title-top {
         width: 80%;
